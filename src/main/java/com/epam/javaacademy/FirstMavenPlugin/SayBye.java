@@ -9,7 +9,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 public class SayBye extends AbstractMojo {
 
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info("bye");
+        getLog().info("Bye");
     }
 
 }
